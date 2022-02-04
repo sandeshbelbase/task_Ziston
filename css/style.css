@@ -92,9 +92,14 @@ body{
     text-decoration: none;
 
 }
+.dropdown:hover{
+    border-top: 1.5px solid #fc3c3c;
+    transition:  1200ms ease;
+
+}
 .dropdown i{
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 100;
 }
 .btn{
     display: flex;
@@ -122,6 +127,28 @@ body{
     font-size: 12px;
     font-weight: normal;
 }
+.dropdown .dropdown-menu{
+    position: absolute !important;
+    top: 22px !important;
+    width: 200px;
+}
+.dropdown-menu a{
+    margin:0px;
+    color: #000;
+    line-height: 40px;
+}
+.dropdown-menu a:hover{
+    color: #fc3c3c;
+    background: none;
+}
+.cart_item a:hover{
+    color: #fc3c3c;
+    transition: all 500ms ease;
+}
+.dropdown-item{
+    padding-right: 40px;
+}
+
 .cart_item{
     display: flex;
     flex-direction: row;
@@ -185,8 +212,10 @@ body{
     width: 100%;
     margin: 0 auto;
     margin-top: 58px;
+    color: rgb(153, 158, 166);
 }
 .search_wrap ul{
+    color: rgb(153, 158, 166);
     width: 100%;
     height: 60px;
     display: inline-flex;
@@ -194,9 +223,7 @@ body{
     text-decoration: none;
     margin-top: 50px;
 }
-.search_wrap ul li{
-    
-}
+
 .input_box{
     position: relative;
     display: block;
@@ -208,11 +235,14 @@ body{
     border: none;
 }
 .search_wrap select{
+    color: rgb(153, 158, 166);
     height: 100%;
     width: 100%;
     border: none;
     border-left: 1px solid #eee;
     padding-left: 50px;
+    font-size: 16px;
+    line-height: 34px;
 
 }
 #look{
@@ -222,12 +252,16 @@ body{
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px;
     padding-left: 50px;
- 
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 500;
 } 
 .search_button{
     width: 200px;
     height: 100%;
     margin-left: 20px;
+    border: none;
+    
 }
 #sp{
     border-bottom-right-radius: 4px;
@@ -236,4 +270,28 @@ body{
 button.sbtn{
     height: 100%;
     width: 100%;
+    color: #fff;
+    background-color: #fc3c3c;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.search_button i{
+    padding-right: 10px;
+}
+.curl_shape{
+    position: absolute;
+    left: 415px;
+    top: 640px;
+}
+.curl_shape p{
+    padding-left: 80px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0;
+    font-family: "Sacramento", cursive
 }
