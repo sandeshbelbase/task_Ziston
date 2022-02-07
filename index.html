@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap_css/bootstrap.min.css" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -141,80 +142,364 @@
     <div class="container">
       <div class="slide_wrap">
         <div class="slide_items">
-
-        <!-- <div class="slider" id="slider">
+          <!-- <div class="slider" id="slider">
           <div class="holder">
             <div class="slide" id="slide-0"><span class="temp">74°</span></div>
             <div class="slide" id="slide-1"><span class="temp">64°</span></div>
           </div>
         </div> -->
-        <div class="mid_content my-0">
-          <div class="title">Let’s Explore</div>
-          <h1>YOUR AMAZING CITY</h1>
-          <p>
-            Find great places to stay, eat, shop, or visit from local experts.
-          </p>
+          <div class="mid_content my-0">
+            <div class="title">Let’s Explore</div>
+            <h1>YOUR AMAZING CITY</h1>
+            <p>
+              Find great places to stay, eat, shop, or visit from local experts.
+            </p>
 
-          <div class="search_wrap container">
-            <ul>
-              <li class="input_box">
-                <input
-                  type="text"
-                  name="listing_name"
-                  placeholder="What are you looking for?"
-                  id="look"
-                />
-              </li>
-              <li class="input_box banner_one_select_one">
-                <select class="selectpicker" data-width="100%">
-                  <option selected="selected">Location</option>
-                  <option>Default Sorting 1</option>
-                  <option>Default Sorting 2</option>
-                  <option>Default Sorting 3</option>
-                  <option>Default Sorting 4</option>
-                </select>
-              </li>
-              <li class="input_box banner_one_select_two">
-                <select class="selectpicker" id="sp" data-width="100%">
-                  <option selected="selected">All catgories</option>
-                  <option>Default Sorting 1</option>
-                  <option>Default Sorting 2</option>
-                  <option>Default Sorting 3</option>
-                  <option>Default Sorting 4</option>
-                </select>
-              </li>
-              <li>
-                <div class="search_button">
-                  <button class="sbtn" type="submit">
-                    <span class="icon-magnifying-glass"></span
-                    ><i class="far fa-search"></i>Search
-                  </button>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <!--shape inside the banner wrap-->
-          <div class="curl_shape">
-            <img src="images/shape1.png" alt="" />
-            <p>Or browse the selected categories</p>
+            <div class="search_wrap container">
+              <ul>
+                <li class="input_box">
+                  <input
+                    type="text"
+                    name="listing_name"
+                    placeholder="What are you looking for?"
+                    id="look"
+                  />
+                </li>
+                <li class="input_box banner_one_select_one">
+                  <select class="selectpicker" data-width="100%">
+                    <option selected="selected">Location</option>
+                    <option>Default Sorting 1</option>
+                    <option>Default Sorting 2</option>
+                    <option>Default Sorting 3</option>
+                    <option>Default Sorting 4</option>
+                  </select>
+                </li>
+                <li class="input_box banner_one_select_two">
+                  <select class="selectpicker" id="sp" data-width="100%">
+                    <option selected="selected">All catgories</option>
+                    <option>Default Sorting 1</option>
+                    <option>Default Sorting 2</option>
+                    <option>Default Sorting 3</option>
+                    <option>Default Sorting 4</option>
+                  </select>
+                </li>
+                <li>
+                  <div class="search_button">
+                    <button class="sbtn" type="submit">
+                      <span class="icon-magnifying-glass"></span
+                      ><i class="far fa-search"></i>Search
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!--shape inside the banner wrap-->
+            <div class="curl_shape">
+              <img src="images/shape1.png" alt="" />
+              <p>Or browse the selected categories</p>
+            </div>
           </div>
         </div>
-        
-      </div>
       </div>
     </div>
 
-
-      
-      <div class="slider_service">
-        <div class="container">
+    <div class="slider_service">
+      <div class="container col-md-12">
+        <div class="slider service_items">
           <div class="service_item">
-            <i class="far fa-gifts"></i>
-            <span>Shopping</span>
+            <span><i class="far fa-gifts"></i></span>
+            <h4>Shopping</h4>
+          </div>
+          <div class="service_item">
+            <span><i class="far fa-gifts"></i></span>
+            <h4>Shopping</h4>
+          </div>
+          <div class="service_item">
+            <span><i class="far fa-gifts"></i></span>
+            <h4>Shopping</h4>
+          </div>
+          <div class="service_item">
+            <span><i class="far fa-gifts"></i></span>
+            <h4>Shopping</h4>
+          </div>
+          <div class="service_item">
+            <span><i class="far fa-gifts"></i></span>
+            <h4>Shopping</h4>
+          </div>
+          <div class="service_item">
+            <span><i class="far fa-gifts"></i></span>
+            <h4>Shopping</h4>
+          </div>
+          <div class="service_item">
+            <span><i class="far fa-gifts"></i></span>
+            <h4>Shopping</h4>
+          </div>
+        </div>
+        <div class="repeated_title">
+          <h4>Around the World</h4>
+          <h2>Popular Places</h2>
+          <p>
+            Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Places slider starts from here-->
+
+    <div class="place_wrap">
+      <!-- <div class="row"> -->
+      <div class="place_slider row">
+        <div class="place_item col-md-3">
+          <img src="images/place1.jpg" alt="" />
+          <button class="sbtn">14 Listing</button>
+        </div>
+        <div class="place_item col-md-3">
+          <img src="images/place2.jpg" alt="" />
+          <button class="sbtn">14 Listing</button>
+        </div>
+        <div class="place_item col-md-3">
+          <img src="images/place3.jpg" alt="" />
+          <button class="sbtn">14 Listing</button>
+        </div>
+        <div class="place_item col-md-3">
+          <img src="images/place4.jpg" alt="" />
+          <button class="sbtn">14 Listing</button>
+        </div>
+        <div class="place_item col-md-3">
+          <img src="images/place4.jpg" alt="" />
+          <button class="sbtn">14 Listing</button>
+        </div>
+        <div class="place_item col-md-3">
+          <img src="images/place4.jpg" alt="" />
+          <button class="sbtn">14 Listing</button>
+        </div>
+
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <!--Food lovers section-->
+    <div class="foodlover_wrap">
+      <div class="foodlover_img"><img src="images/redmap.png" alt="" /></div>
+      <div class="food_lovers">
+        <p>Food lovers</p>
+        <h2>Visit the Amazing Food<br />Points in London</h2>
+      </div>
+    </div>
+
+    <!--number counting starts-->
+    <div class="counter">
+      <ul class="count_items">
+        <li class="count_item">
+          <span>8705</span>
+          <p>Total Listings</p>
+        </li>
+        <li class="count_item">
+          <span>8705</span>
+          <p>Total Listings</p>
+        </li>
+        <li class="count_item">
+          <span>8705</span>
+          <p>Total Listings</p>
+        </li>
+        <li class="count_item">
+          <span>8705</span>
+          <p>Total Listings</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="handpicked">
+      <div class="repeated_title">
+        <h4>HANDPICKED PLACES</h4>
+        <h2>Latest Listings</h2>
+        <p>
+          Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci phaedrum
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="latest_slider row">
+        <div class="latest_things col-md-4">
+          <div class="latest_item">
+            <img src="images/latest1.jpg" alt="" />
+            <div class="open_text">Open</div>
+            <div class="love"><i class="far fa-heart"></i></div>
+            <div class="owner"><img src="images/owner1.png" alt="" /></div>
+            <div class="shop"><i class="fas fa-shopping-bag"></i></div>
+          </div>
+          <div class="latest_content">
+            <div class="title">
+              <h3>
+                <a href="#"
+                  >Silver Rose Store<span
+                    ><i class="fas fa-check-circle"></i></span
+                ></a>
+              </h3>
+              <p>Lorem ipsum is not free dolor sit amet</p>
+            </div>
+            <div class="address">
+              <span
+                ><i class="fas fa-map-marker-alt"></i>80 Broklyn Street
+                USA</span
+              >
+            </div>
+            <div>
+              <span><i class="fa fa-phone"></i>92 666 888 0000</span>
+            </div>
+
+            <div class="rate">
+              <h6>$$$$$</h6>
+
+              <div class="rating">
+                <a href="#" class="clr-black">4.8</a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#" class="clr-gray"><i class="fa fa-star"></i></a>
+                <a href="#" class="clr-gray"><i class="fa fa-star"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest_things col-md-4">
+          <div class="latest_item">
+            <img src="images/latest1.jpg" alt="" />
+            <div class="open_text">Open</div>
+            <div class="love"><i class="far fa-heart"></i></div>
+            <div class="owner"><img src="images/owner1.png" alt="" /></div>
+            <div class="shop"><i class="fas fa-shopping-bag"></i></div>
+          </div>
+          <div class="latest_content">
+            <div class="title">
+              <h3>
+                <a href="#"
+                  >Silver Rose Store<span
+                    ><i class="fas fa-check-circle"></i></span
+                ></a>
+              </h3>
+              <p>Lorem ipsum is not free dolor sit amet</p>
+            </div>
+            <div class="address">
+              <span
+                ><i class="fas fa-map-marker-alt"></i>80 Broklyn Street
+                USA</span
+              >
+            </div>
+            <div>
+              <span><i class="fa fa-phone"></i>92 666 888 0000</span>
+            </div>
+
+            <div class="rate">
+              <h6>$$$$$</h6>
+
+              <div class="rating">
+                <a href="#" class="clr-black">4.8</a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#" class="clr-gray"><i class="fa fa-star"></i></a>
+                <a href="#" class="clr-gray"><i class="fa fa-star"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest_things col-md-4">
+          <div class="latest_item">
+            <img src="images/latest1.jpg" alt="" />
+            <div class="open_text">Open</div>
+            <div class="love"><i class="far fa-heart"></i></div>
+            <div class="owner"><img src="images/owner1.png" alt="" /></div>
+            <div class="shop"><i class="fas fa-shopping-bag"></i></div>
+          </div>
+          <div class="latest_content">
+            <div class="title">
+              <h3>
+                <a href="#"
+                  >Silver Rose Store<span
+                    ><i class="fas fa-check-circle"></i></span
+                ></a>
+              </h3>
+              <p>Lorem ipsum is not free dolor sit amet</p>
+            </div>
+            <div class="address">
+              <span
+                ><i class="fas fa-map-marker-alt"></i>80 Broklyn Street
+                USA</span
+              >
+            </div>
+            <div>
+              <span><i class="fa fa-phone"></i>92 666 888 0000</span>
+            </div>
+
+            <div class="rate">
+              <h6>$$$$$</h6>
+
+              <div class="rating">
+                <a href="#" class="clr-black">4.8</a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#" class="clr-gray"><i class="fa fa-star"></i></a>
+                <a href="#" class="clr-gray"><i class="fa fa-star"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="latest_things col-md-4">
+          <div class="latest_item">
+            <img src="images/latest1.jpg" alt="" />
+            <div class="open_text">Open</div>
+            <div class="love"><i class="far fa-heart"></i></div>
+            <div class="owner"><img src="images/owner1.png" alt="" /></div>
+            <div class="shop"><i class="fas fa-shopping-bag"></i></div>
+          </div>
+          <div class="latest_content">
+            <div class="title">
+              <h3>
+                <a href="#"
+                  >Silver Rose Store<span
+                    ><i class="fas fa-check-circle"></i></span
+                ></a>
+              </h3>
+              <p>Lorem ipsum is not free dolor sit amet</p>
+            </div>
+            <div class="address">
+              <span
+                ><i class="fas fa-map-marker-alt"></i>80 Broklyn Street
+                USA</span
+              >
+            </div>
+            <div>
+              <span><i class="fa fa-phone"></i>92 666 888 0000</span>
+            </div>
+
+            <div class="rate">
+              <h6>$$$$$</h6>
+
+              <div class="rating">
+                <a href="#" class="clr-black">4.8</a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#" class="clr-gray"><i class="fa fa-star"></i></a>
+                <a href="#" class="clr-gray"><i class="fa fa-star"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </div>
 
+    <!--everyday Offer-->
+    <div class="container">
+      <div class="daily_offer">
+        <img src="images/redback2.jpg" alt="">
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script
