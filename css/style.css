@@ -776,7 +776,7 @@ button.sbtn:hover{
     text-decoration: none;
 }
 .blog{
-    position: relative;
+
     height: 112vh;
     width: 100%;
     background-image: url("../images/blog1.jpg");
@@ -786,10 +786,15 @@ button.sbtn:hover{
 }
 .blog_item{
     width: 100%;
+    /* z-index: 100; */
+}
+.blog_item img{
+    max-width: 100%;
 }
 .item_wrap{
-    position: absolute;
+    position: relative;
     z-index: 11;
+    padding: 0px 10px;
 }
 .blog_content{
     padding-top: 18px;
