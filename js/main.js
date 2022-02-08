@@ -31,3 +31,24 @@ $('.latest_slider').slick({
   prevArrow: null,
   nextArrow: null
 });
+
+$('.brand_slider').slick({
+  infinite: true,
+  slidesToShow: 5,
+  // dots: true,
+  cssEase: 'linear',
+  slidesToScroll: 1,
+  autoplay: true,
+  // autoplaySpeed: 400,
+  prevArrow: null,
+  nextArrow: null
+});
+
+//ANimation part
+window.addEventListener("scroll", function () {
+  let menu_bar = document.querySelector(".head_wrap");
+  let windowPosition = window.scrollY > 90;
+  let windowPos = window.scrollY < 90;
+  menu_bar.classList.toggle("scrolling-active", windowPosition);
+  menu_bar.classList.toggle("scrolling-deactive", windowPos);
+});
