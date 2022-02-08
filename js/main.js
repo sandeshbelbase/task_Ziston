@@ -26,8 +26,8 @@ $('.latest_slider').slick({
   // dots: true,
   cssEase: 'linear',
   slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 900,
+  // autoplay: true,
+  // autoplaySpeed: 900,
   prevArrow: null,
   nextArrow: null
 });
