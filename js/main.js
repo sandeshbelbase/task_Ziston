@@ -44,6 +44,18 @@ $('.brand_slider').slick({
   nextArrow: null
 });
 
+$('.testimonial').slick({
+  infinite: true,
+  slidesToShow: 2,
+  // dots: true,
+  cssEase: 'linear',
+  slidesToScroll: 1,
+  autoplay: true,
+  // autoplaySpeed: 400,
+  prevArrow: null,
+  nextArrow: null
+});
+
 //ANimation part
 window.addEventListener("scroll", function () {
   let menu_bar = document.querySelector(".head_wrap");
