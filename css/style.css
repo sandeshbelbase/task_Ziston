@@ -4,6 +4,7 @@
 body{
     font-family: 'Barlow', sans-serif;
     /* background-color: #fff   ; */
+    overflow-x: hidden;
 }
 body p{
     font-weight: 500;
@@ -763,9 +764,23 @@ button.listbtn{
 }
 
 .map_background-wrap{
-    background-image: url("../images/map50.jpg");
-    height: 80vh;
+    background-image: url("../images/map50.png");
+    opacity: 0.1;
+    height: 100vh;
+
     /* opacity: 0.5; */
+}
+.after-latest .slick-list{
+    position: relative;
+    /* top: -430px; */
+    padding-left: 50px;
+}
+.after-latest .slick-slide{
+    padding-left: 20px !important;
+    padding-right: 60px !important;
+}
+.after-latest .testimonial{
+    position: absolute !important;
 }
 .customer{
     /* padding-right: 40px; */
