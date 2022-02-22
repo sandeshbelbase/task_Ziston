@@ -119,6 +119,13 @@ body p{
     margin-left: 25px;
     padding: 31px 0px 31px;
 }
+/* .dropdown:hover .dropdown-menu{
+    display: block;
+    position: absolute !important;
+    top: 22px !important;
+    width: 200px
+
+} */
 .dropdown a{
     color: #fff;
     margin-left: 20px;
@@ -128,10 +135,12 @@ body p{
     text-decoration: none;
 
 }
+.dropdown a:hover{
+    color: #fff;
+}
 .dropdown:hover{
     border-top: 1.5px solid #fc3c3c;
     transition:  1200ms ease;
-
 }
 .dropdown i{
     font-size: 25px;
@@ -481,7 +490,7 @@ button.listbtn{
     /* top: -445px; */
     left: 10px;
 }
-.slick-slide{
+.place_slider .slick-slide{
     padding-right: 10px;
     padding-left: 10px;
 }
