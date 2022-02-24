@@ -203,7 +203,6 @@ body p{
 }
 .slide_wrap{
     height: 127vh;
-
 }
 .slide_items{
     margin: 0px;
@@ -781,7 +780,7 @@ button.listbtn{
 }
 .after-latest .slick-list{
     position: relative;
-    /* top: -430px; */
+    /* top: -510px; */
     padding-left: 50px;
 }
 .after-latest .slick-slide{
