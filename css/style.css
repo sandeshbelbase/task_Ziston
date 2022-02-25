@@ -775,13 +775,17 @@ button.listbtn{
     background-image: url("../images/map50.png");
     opacity: 0.1;
     height: 100vh;
-
+    /* position: relative; */
     /* opacity: 0.5; */
 }
 .after-latest .slick-list{
-    position: relative;
-    /* top: -510px; */
+    /* position: relative; */
+    top: -510px;
     padding-left: 50px;
+}
+.brand_slider .slick-list{
+    position: relative;
+    top: 0px !important;
 }
 .after-latest .slick-slide{
     padding-left: 20px !important;
