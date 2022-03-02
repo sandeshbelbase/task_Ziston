@@ -11,6 +11,13 @@ body p{
     font-size: 16px;
     line-height: 34px;
 }
+.navbar-toggler{
+    color: #fff;
+    display: none;
+}
+.offcanvas{
+    background-color: #000 !important;
+}
 .header{
     display: block;
     position: relative;

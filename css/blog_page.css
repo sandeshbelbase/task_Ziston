@@ -333,7 +333,34 @@ body p, h1, h2, h3, h4, h5{
     color: #818791;
     font-size: 18px;
     line-height: 34px;
- 
-
 }
 
+@media (max-width: 798px) {
+    .tag_person{
+        padding: 40px;
+    }
+    .footer{
+        top: 0px !important;
+    }
+    .copyright{
+        top: 0px !important;
+    }
+    .blog_description {
+        padding-left: 20px;
+        padding-bottom: 23px;
+    }
+    .red_mid_content {
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    .red_mid_content input{
+        margin-top: 10px;
+    }
+    .red_mid_content i{
+        top: 110px;
+    }
+    .explore_wrap{
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+}

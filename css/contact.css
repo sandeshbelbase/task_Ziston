@@ -51,3 +51,23 @@
     padding-left: 0px;
     padding-right: 10px;
 }
+
+
+@media (max-width: 638px) {
+    .location i {
+        font-size: 32px;
+        line-height: 44px;
+        padding: 14px;
+        width: 80px;
+        height: 80px;
+        top: -43px;
+        left: 200px;
+    }
+    .visit{
+        margin-top: 60px;
+    }
+    .location_content{
+        padding-top: 24px;
+    }
+}
+

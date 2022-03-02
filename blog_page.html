@@ -11,7 +11,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/blog_page.css" />
+    <link rel="stylesheet" href="css/blog_page.css"/>
+    <link rel="stylesheet" href="css/responsive.css">
 
     <link rel="stylesheet" href="css/bootstrap_css/bootstrap.min.css" />
     <link
@@ -27,8 +28,7 @@
   </head>
   <body>
     <div class="header">
-      <div class="top_nav_bar">
-        <div class="container_box">
+      <div class="top_nav_bar container-fluid">
           <div class="top_nav">
             <div class="social_media">
               <ul>
@@ -59,81 +59,135 @@
               </ul>
             </div>
           </div>
-        </div>
       </div>
 
       <!--menu bar-->
       <div class="head_wrap">
-        <div class="container_box">
-          <div class="nav_bar">
-            <div class="logo">
+        <div class="container-fluid">
+          <div class="nav_bar row">
+            <div class="logo col-md-2">
               <img src="images/logo.png" alt="" />
             </div>
             <!--Menu bars-->
-            <div class="menu">
-              <div class="dropdown">
-                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown"
-                  >Home</a
-                >
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">Home1</a>
-                  <a href="#" class="dropdown-item">Home2</a>
-                  <a href="#" class="dropdown-item">Home2</a>
+            <div class="menu_wrapper col-md-5">
+              <div class="menu">
+                <div class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-bs-toggle=""
+                    >Home</a
+                  >
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Home1</a>
+                    <a href="#" class="dropdown-item">Home2</a>
+                    <a href="#" class="dropdown-item">Home2</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-bs-toggle=""
+                    >Pages</a
+                  >
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Home1</a>
+                    <a href="#" class="dropdown-item">Home2</a>
+                    <a href="#" class="dropdown-item">Home2</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-bs-toggle=""
+                    >Listing</a
+                  >
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Home1</a>
+                    <a href="#" class="dropdown-item">Home2</a>
+                    <a href="#" class="dropdown-item">Home2</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <a href="#">Pricing</a>
+                </div>
+                <div class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-bs-toggle=""
+                    >Blog</a
+                  >
+                  <div class="dropdown-menu">
+                    <a href="blog.html" class="dropdown-item">Blog</a>
+                    <a href="blog_page.html" class="dropdown-item">Blog Details</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                  <a href="contact.html">Contact</a>
                 </div>
               </div>
-              <div class="dropdown">
-                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown"
-                  >Pages</a
-                >
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">Home1</a>
-                  <a href="#" class="dropdown-item">Home2</a>
-                  <a href="#" class="dropdown-item">Home2</a>
-                </div>
-              </div>
-              <div class="dropdown">
-                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown"
-                  >Listing</a
-                >
-                <div class="dropdown-menu">
-                  <a href="#" class="dropdown-item">Home1</a>
-                  <a href="#" class="dropdown-item">Home2</a>
-                  <a href="#" class="dropdown-item">Home2</a>
-                </div>
-              </div>
-              <div class="dropdown">
-                <a href="#">Pricing</a>
-              </div>
-              <div class="dropdown">
-                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown"
-                  >Blog</a
-                >
-                <div class="dropdown-menu">
-                  <a href="blog.html" class="dropdown-item">Blog</a>
-                  <a href="blog_page.html" class="dropdown-item">Blog Details</a>
-                </div>
-              </div>
-              <div class="dropdown">
-                <a href="contact.html">Contact</a>
-              </div>
+              <button class="navbar-toggler" type="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+						    <span><i class="far fa-bars"></i></span>
+				        	</button>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="nav_bar_toggle">
+                                <div class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-bs-toggle=""
+                                    >Home</a
+                                  >
+                                  <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Home1</a>
+                                    <a href="#" class="dropdown-item">Home2</a>
+                                    <a href="#" class="dropdown-item">Home2</a>
+                                  </div>
+                                </div>
+                                <div class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-bs-toggle=""
+                                    >Pages</a
+                                  >
+                                  <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Home1</a>
+                                    <a href="#" class="dropdown-item">Home2</a>
+                                    <a href="#" class="dropdown-item">Home2</a>
+                                  </div>
+                                </div>
+                                <div class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-bs-toggle=""
+                                    >Listing</a
+                                  >
+                                  <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Home1</a>
+                                    <a href="#" class="dropdown-item">Home2</a>
+                                    <a href="#" class="dropdown-item">Home2</a>
+                                  </div>
+                                </div>
+                                <div class="dropdown">
+                                  <a href="#">Pricing</a>
+                                </div>
+                                <div class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-bs-toggle=""
+                                    >Blog</a
+                                  >
+                                  <div class="dropdown-menu">
+                                    <a href="blog.html" class="dropdown-item">Blog</a>
+                                    <a href="blog_page.html" class="dropdown-item">Blog Details</a>
+                                  </div>
+                                </div>
+                                <div class="dropdown">
+                                  <a href="contact.html">Contact</a>
+                                </div>
+                            </div>
+                    </div>
+
             </div>
             <!--Cart and search items-->
-            <div class="cart_item">
-              <div class="dropdown" id="drop_search">
+            <div class="cart_item col-md-5">
+              <div class="dropdown">
                 <a href="#"><i class="fas fa-search"></i></a>
               </div>
               <div class="dropdown">
                 <a href="#"><i class="far fa-shopping-cart"></i></a>
               </div>
-              <div class="dropdown"></div>
+              <div class="btn">
+                <a href="" id
+                  ><button>
+                    <span><i class="fas fa-plus"></i>&nbsp;</span>ADD LISTING
+                  </button></a
+                >
+              </div>
             </div>
-            <div class="btn">
-              <a href="" id
-                ><button>
-                  <span><i class="fas fa-plus"></i>&nbsp;</span>ADD LISTING
-                </button></a
-              >
-            </div>
+
           </div>
         </div>
       </div>

@@ -76,3 +76,15 @@
     color: #fc3c3c;
     padding-right: 2px;
 }
+
+@media (max-width: 798px) {
+
+    .footer{
+        top: 0px !important;
+    }
+    .copyright{
+        top: 0px !important;
+    }
+
+
+}

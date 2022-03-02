@@ -10,6 +10,17 @@
         padding-right: 69px;
         padding-top: 60px;
     }
+    .navbar-toggler{
+        color: #fff;
+        display: block !important;
+    }
+    .menu_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
  }
  @media(max-width:999px){
      .count_item{
@@ -37,6 +48,11 @@
      
  }
  @media(max-width:792px){
+    .menu_wrapper{
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        }
     .count_item{
        padding-left: 18px;
        padding-right: 18px;
@@ -47,9 +63,6 @@
     .show_btn{
         margin-left: 0px;
         margin-right: 4px;
-    }
-    .slide_items{
-        /* height: 130vh; */
     }
     .show_btn button{
         padding: 10px;
@@ -155,6 +168,11 @@
 }
 
 @media (max-width: 745px) {
+    .navbar-toggler{
+    position: absolute;
+    right: 0px;
+    top: 35px;
+    }
     .top_nav_bar{
         display: none;
     }
@@ -252,6 +270,10 @@
     .footer_shape{
         width: 100%;
     }
+    .search_wrap ul{
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media (max-width: 638px) {
     body{
@@ -268,5 +290,60 @@
     }
     .count_item span{
         font-size: 24px;
+    }
+    .input_box{
+        width: 60% !important;
+        margin-top: 5px;
+    }
+    .search_button {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .foodlover_img img{
+        width: 100%;
+    }
+    .footer_shape img{
+        width: 100%;
+    }
+}
+@media (max-width:390px){
+    .offcanvas{
+        width: 70% !important;
+    }
+    .copyright{
+        top: 1200px;
+    }
+    .search_wrap ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .input_box{
+        width: 80% !important;
+    }
+    .offer_content {
+        margin-left: 9px;
+    }
+    .offer_content h3 {
+        font-size: 12px;
+        line-height: normal;
+    }
+    .mid_content h1 {
+        font-size: 30px;
+    }
+    .mid_content p{
+        font-size: 12px;
+    }
+    .repeated_title h2{
+        font-size: 32px;
+    }
+    .repeated_title p{
+        font-size: 12px;
+    }
+    .repeated_title h4{
+        font-size: 14px;
+    }
+    .choice_item {
+        margin-bottom: 0px;
+        font-size: 18px;
     }
 }
